@@ -7,11 +7,11 @@ int main() {
     printf ("HOC_BONG_XUAT_SAC\n");
   }
  //xet hoc bong gioi
-  else if((8.0 <= dtb < 9.0 && (80 <= drl < 90)||(drl >= 90))||( dtb>=90 && 80 <= drl < 90)){
+  else if((dtb >=8.0 && dtb <9.0 && drl >= 80 && del <90)|| ( drl >=90 )|| (dtb >=9.0 && drl >= 80 && drl <90 )){
     printf (" HOC_BONG_GIOI\n");
   }
  //xet hoc bong kha
-  else if ((7.0 <= dtb < 8.0 && drl >=70)||(8.0 <= dtb < 9.0 && 80 <= drl < 90)||(dtb >= 9.0 && dtb >= 9.0)){
+  else if ((dtb>= 7.0 && dtb<8.0 && drl >=70)||dtb >= 8.0 && dtb <9.0 && drl >=80 && drl <90)){
     printf ("HOC_BONG_KHA\n");
   }
   else{
