@@ -11,7 +11,7 @@ int main() {
     printf (" HOC_BONG_GIOI\n");
   }
  //xet hoc bong kha
-  else if ((7.0 <= dtb < 8.0 && drl >=70)||(8.0 <= dtb < 9.0 && 80 <= drl < 90)||(dtb >= 9.0 && dtb >= 9.0){
+  else if ((7.0 <= dtb < 8.0 && drl >=70)||(8.0 <= dtb < 9.0 && 80 <= drl < 90)||(dtb >= 9.0 && dtb >= 9.0)){
     printf ("HOC_BONG_KHA\n");
   }
   else (dtb < 7.0 && drl < 70){
