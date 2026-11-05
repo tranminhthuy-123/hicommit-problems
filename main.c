@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-  float dtb,drl;
-   scanf("%f %f",&dtb,&drl);
+  double dtb,drl;
+   scanf("%lf %lf",&dtb,&drl);
   // xet hoc bong xuat sac
   if (dtb>=9.0 && drl>=90){
     printf ("HOC_BONG_XUAT_SAC\n");
